@@ -1,0 +1,18 @@
+{
+  "hooks": {
+    "PreToolUse": [
+      {
+        "type": "command",
+        "command": "python .github/hooks/scripts/pretooluse_guardrails.py",
+        "timeout": 15
+      }
+    ],
+    "PostToolUse": [
+      {
+        "type": "command",
+        "command": "python .github/hooks/scripts/posttooluse_verify.py",
+        "timeout": 15
+      }
+    ]
+  }
+}

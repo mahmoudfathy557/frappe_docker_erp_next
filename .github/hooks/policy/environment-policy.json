@@ -1,0 +1,19 @@
+{
+  "environmentVariable": "COPILOT_ENV_CLASS",
+  "defaultEnvironment": "development",
+  "productionLike": ["production", "prod", "staging", "stage"],
+  "developmentLike": ["development", "dev", "local", "test"],
+  "destructiveKeywords": ["delete", "drop", "reset --hard"],
+  "mutatingKeywords": [
+    "edit",
+    "execute",
+    "apply_patch",
+    "create_file",
+    "rename"
+  ],
+  "verificationReminder": "Policy reminder: include explicit read-back verification evidence after mutating operations.",
+  "fallbackPolicy": {
+    "missingPolicyFile": "ask",
+    "invalidPolicyFile": "ask"
+  }
+}
