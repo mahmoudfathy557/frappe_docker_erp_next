@@ -1,0 +1,1 @@
+from client_customizations.doctype.consignment_settlement.consignment_settlement import *

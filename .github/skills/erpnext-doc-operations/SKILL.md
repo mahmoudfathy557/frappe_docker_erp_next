@@ -17,15 +17,16 @@ user-invocable: true
 ## Procedure
 
 1. Resolve operation intent: list/get/create/update/lifecycle.
-2. Prefer dedicated ERPNext MCP tool for the DocType/action.
-3. If no dedicated tool exists, use generic ERPNext doc tools.
-4. If MCP is unavailable, use bench fallback and emit one reason code:
+2. Discover existing workflow states and linked documents for the target DocType.
+3. Prefer dedicated ERPNext MCP tool for the DocType/action.
+4. If no dedicated tool exists, use generic ERPNext doc tools.
+5. If MCP is unavailable, use bench fallback and emit one reason code:
    - MCP_UNSUPPORTED_OPERATION
    - MCP_TOOL_UNAVAILABLE
    - MCP_RUNTIME_FAILURE
-5. Validate preconditions (docstatus, required fields, dependencies).
-6. Execute action.
-7. Re-read document or list to verify the final state.
+6. Validate preconditions (docstatus, required fields, dependencies).
+7. Execute action through the existing workflow path.
+8. Re-read document or list to verify the final state.
 
 ## Safety Checks
 
@@ -36,6 +37,7 @@ user-invocable: true
 ## Expected Output
 
 - Action summary
+- Existing workflow path used (and why)
 - Inputs used (doctype/id/filters)
 - Result with verification evidence
 - Next remediation step when blocked

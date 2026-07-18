@@ -1,0 +1,1 @@
+from client_customizations.doctype.consignment_agreement_item.consignment_agreement_item import *

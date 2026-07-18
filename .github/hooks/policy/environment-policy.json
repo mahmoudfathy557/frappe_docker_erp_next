@@ -12,6 +12,7 @@
     "rename"
   ],
   "verificationReminder": "Policy reminder: include explicit read-back verification evidence after mutating operations.",
+  "integrationReminder": "Policy reminder: discover existing DocType/hooks/services first and report reuse decisions before introducing new customization paths.",
   "fallbackPolicy": {
     "missingPolicyFile": "ask",
     "invalidPolicyFile": "ask"

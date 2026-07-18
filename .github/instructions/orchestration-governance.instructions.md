@@ -15,6 +15,13 @@ applyTo: ".github/agents/**/*.agent.md"
    - frappe.get_list
    - frappe.db.set_value
 
+## Codebase-First Integration
+
+1. Before proposing or executing any customization, identify existing DocTypes, hooks, services, and workflows that already solve part of the requirement.
+2. Prefer extending existing module behavior over creating parallel systems.
+3. Output must include a short reuse map: existing touchpoints found, what is reused, and what new code is strictly required.
+4. If touchpoints are unknown, run a read-only discovery pass before any mutation.
+
 ## Environment Mode
 
 1. Development mode: execution allowed with mandatory verification.

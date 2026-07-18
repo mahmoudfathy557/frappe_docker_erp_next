@@ -50,9 +50,15 @@ def main():
             "Policy reminder: include explicit read-back verification evidence after mutating operations.",
         )
     )
+    integration_reminder = str(
+        policy.get(
+            "integrationReminder",
+            "Policy reminder: discover existing module touchpoints and report reuse decisions before adding new customization paths.",
+        )
+    )
     if any(word in tool_name for word in mutate_keywords):
         output = {
-            "systemMessage": reminder
+            "systemMessage": f"{reminder} {integration_reminder}"
         }
         print(json.dumps(output))
     else:

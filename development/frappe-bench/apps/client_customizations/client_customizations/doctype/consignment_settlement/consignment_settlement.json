@@ -1,0 +1,113 @@
+{
+  "actions": [],
+  "allow_rename": 1,
+  "autoname": "format:CST-{#####}",
+  "creation": "2026-07-18 00:00:00.000000",
+  "doctype": "DocType",
+  "editable_grid": 1,
+  "engine": "InnoDB",
+  "field_order": [
+    "company",
+    "supplier",
+    "posting_date",
+    "status",
+    "total_qty",
+    "total_amount",
+    "linked_purchase_invoice",
+    "payable_status",
+    "items"
+  ],
+  "fields": [
+    {
+      "fieldname": "company",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Company",
+      "options": "Company",
+      "reqd": 1
+    },
+    {
+      "fieldname": "supplier",
+      "fieldtype": "Link",
+      "in_list_view": 1,
+      "label": "Supplier",
+      "options": "Supplier",
+      "reqd": 1
+    },
+    {
+      "default": "Today",
+      "fieldname": "posting_date",
+      "fieldtype": "Date",
+      "label": "Posting Date",
+      "reqd": 1
+    },
+    {
+      "default": "Draft",
+      "fieldname": "status",
+      "fieldtype": "Select",
+      "in_list_view": 1,
+      "label": "Status",
+      "options": "Draft\nReady to Submit\nSubmitted\nCancelled",
+      "reqd": 1
+    },
+    {
+      "fieldname": "total_qty",
+      "fieldtype": "Float",
+      "label": "Total Qty",
+      "read_only": 1
+    },
+    {
+      "fieldname": "total_amount",
+      "fieldtype": "Currency",
+      "label": "Total Amount",
+      "read_only": 1
+    },
+    {
+      "fieldname": "linked_purchase_invoice",
+      "fieldtype": "Link",
+      "label": "Linked Purchase Invoice",
+      "options": "Purchase Invoice",
+      "read_only": 1
+    },
+    {
+      "default": "Not Generated",
+      "fieldname": "payable_status",
+      "fieldtype": "Select",
+      "label": "Payable Status",
+      "options": "Not Generated\nDraft\nSubmitted\nCancelled",
+      "read_only": 1
+    },
+    {
+      "fieldname": "items",
+      "fieldtype": "Table",
+      "label": "Items",
+      "options": "Consignment Settlement Item",
+      "reqd": 1
+    }
+  ],
+  "index_web_pages_for_search": 1,
+  "links": [],
+  "modified": "2026-07-18 00:00:00.000000",
+  "modified_by": "Administrator",
+  "module": "Client Customizations",
+  "name": "Consignment Settlement",
+  "owner": "Administrator",
+  "permissions": [
+    {
+      "create": 1,
+      "delete": 1,
+      "email": 1,
+      "export": 1,
+      "print": 1,
+      "read": 1,
+      "report": 1,
+      "role": "System Manager",
+      "share": 1,
+      "write": 1
+    }
+  ],
+  "sort_field": "modified",
+  "sort_order": "DESC",
+  "states": [],
+  "track_changes": 1
+}

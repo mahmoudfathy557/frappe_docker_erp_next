@@ -1,0 +1,1476 @@
+2026-07-17 15:12:41,365 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:41,642 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:41,889 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:41,896 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:41,904 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,152 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,166 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,192 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,463 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,469 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,473 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,700 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,705 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,711 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,897 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,903 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:42,909 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,040 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,046 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,052 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,081 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,088 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,094 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,268 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,276 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,282 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,570 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,576 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,584 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,792 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,799 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,805 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:43,994 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,001 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,010 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,300 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,311 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,319 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,553 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,560 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,567 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,791 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,800 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:44,808 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,061 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,068 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,074 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,291 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,298 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,304 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,503 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,511 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,516 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,847 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,853 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:45,862 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,016 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,022 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,031 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,293 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,299 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,305 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,495 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,501 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,508 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,737 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,743 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,749 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,965 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,971 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:46,977 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,196 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,204 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,211 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,395 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,402 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,408 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,625 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,631 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,637 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,719 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'
+2026-07-17 15:12:47,725 ERROR frappe Unable to load translations
+Site: dev.localhost
+Form Dict: {}
+Traceback (most recent call last):
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 164, in get_all_translations
+    return frappe.cache.hget(MERGED_TRANSLATION_KEY, lang, generator=_merge_translations)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/utils/redis_wrapper.py", line 241, in hget
+    value = generator()
+            ^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 152, in _merge_translations
+    all_translations.update(get_translations_from_apps(lang))
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/translate.py", line 179, in get_translations_from_apps
+    from frappe.gettext.translate import get_translations_from_mo
+  File "/workspace/development/frappe-bench/apps/frappe/frappe/gettext/translate.py", line 9, in <module>
+    from babel.messages.catalog import Catalog
+ModuleNotFoundError: No module named 'babel.messages'

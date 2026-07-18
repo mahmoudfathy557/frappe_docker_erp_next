@@ -1,0 +1,81 @@
+"""Service layer for consignment calculations."""
+
+from client_customizations.consignment.application.payable import (
+	build_purchase_invoice_items_from_settlement_items,
+	build_purchase_invoice_payload_from_settlement,
+	enforce_settlement_cancel_payable_policy,
+	ensure_payable_for_submitted_settlement,
+	payable_status_from_docstatus,
+	should_block_settlement_cancel_for_payable_docstatus,
+	should_create_payable_for_settlement,
+)
+from client_customizations.consignment.application.settlement import (
+	aggregate_sold_not_settled_rows,
+	aggregate_skip_reasons,
+	build_draft_settlement_lines,
+	classify_row_skip_reason,
+	clear_source_rows_settlement_link,
+	compute_totals_from_lines,
+	fetch_unsettled_sale_rows,
+	generate_draft_settlements_for_date,
+	group_rows_by_supplier_item,
+	mark_source_rows_as_settled,
+	partition_settlement_rows_with_reasons,
+	should_clear_source_row_link,
+	should_create_draft_for_supplier,
+	split_grouped_lines_by_supplier,
+)
+from client_customizations.consignment.application.reporting import (
+	build_settlement_status_exposure_dataset,
+	build_sold_not_settled_dataset,
+	bucket_numeric_rows,
+	get_settlement_status_exposure,
+	get_sold_not_settled_summary_by_scope,
+	make_scope_filters,
+)
+from client_customizations.consignment.application.reconciliation import (
+	build_reconciliation_indicators,
+	get_finance_reconciliation_by_scope,
+	reconcile_sold_not_settled_with_draft_exposure,
+)
+from client_customizations.consignment.application.readiness import (
+	aggregate_overall_status,
+	build_readiness_payload,
+	run_consignment_readiness_healthcheck,
+)
+
+__all__ = [
+	"build_purchase_invoice_items_from_settlement_items",
+	"build_purchase_invoice_payload_from_settlement",
+	"enforce_settlement_cancel_payable_policy",
+	"ensure_payable_for_submitted_settlement",
+	"payable_status_from_docstatus",
+	"should_block_settlement_cancel_for_payable_docstatus",
+	"should_create_payable_for_settlement",
+	"aggregate_sold_not_settled_rows",
+	"aggregate_skip_reasons",
+	"build_draft_settlement_lines",
+	"classify_row_skip_reason",
+	"clear_source_rows_settlement_link",
+	"compute_totals_from_lines",
+	"fetch_unsettled_sale_rows",
+	"generate_draft_settlements_for_date",
+	"group_rows_by_supplier_item",
+	"mark_source_rows_as_settled",
+	"partition_settlement_rows_with_reasons",
+	"should_clear_source_row_link",
+	"should_create_draft_for_supplier",
+	"split_grouped_lines_by_supplier",
+	"build_settlement_status_exposure_dataset",
+	"build_sold_not_settled_dataset",
+	"bucket_numeric_rows",
+	"get_settlement_status_exposure",
+	"get_sold_not_settled_summary_by_scope",
+	"make_scope_filters",
+	"build_reconciliation_indicators",
+	"get_finance_reconciliation_by_scope",
+	"reconcile_sold_not_settled_with_draft_exposure",
+	"aggregate_overall_status",
+	"build_readiness_payload",
+	"run_consignment_readiness_healthcheck",
+]

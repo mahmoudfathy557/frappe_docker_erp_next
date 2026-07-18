@@ -1,0 +1,52 @@
+services:
+  configurator:
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+    environment:
+      PYTHONPATH: /home/frappe/frappe-bench/apps/client_customizations
+
+  backend:
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+    environment:
+      PYTHONPATH: /home/frappe/frappe-bench/apps/client_customizations
+
+  frontend:
+    ports:
+      - "8080:8080"
+    environment:
+      FRAPPE_SITE_NAME_HEADER: frontend
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+
+  websocket:
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+
+  queue-short:
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+    environment:
+      PYTHONPATH: /home/frappe/frappe-bench/apps/client_customizations
+
+  queue-long:
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+    environment:
+      PYTHONPATH: /home/frappe/frappe-bench/apps/client_customizations
+
+  scheduler:
+    volumes:
+      - sites:/home/frappe/frappe-bench/sites
+      - ./development/frappe-bench/apps/client_customizations:/home/frappe/frappe-bench/apps/client_customizations
+    environment:
+      PYTHONPATH: /home/frappe/frappe-bench/apps/client_customizations
+
+volumes:
+  sites:

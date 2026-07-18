@@ -1,0 +1,73 @@
+2026-07-17 14:52:32,357 DEBUG cd frappe-bench && uv venv env --seed --python python3
+2026-07-17 14:53:03,636 LOG Getting frappe
+2026-07-17 14:53:03,638 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2026-07-17 14:54:59,215 LOG Installing frappe
+2026-07-17 14:54:59,289 DEBUG cd /workspace/development/frappe-bench && uv pip install --quiet -e /workspace/development/frappe-bench/apps/frappe  --python /workspace/development/frappe-bench/env/bin/python
+2026-07-17 14:57:03,657 INFO /home/frappe/.local/bin/bench version
+2026-07-17 14:57:33,730 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 15:10:37,432 INFO /home/frappe/.local/bin/bench version
+2026-07-17 15:10:45,133 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 15:10:54,027 INFO /home/frappe/.local/bin/bench version
+2026-07-17 15:11:15,319 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2026-07-17 15:11:18,431 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2026-07-17 15:11:20,672 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2026-07-17 15:11:23,079 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2026-07-17 15:11:25,182 INFO /home/frappe/.local/bin/bench set-config -gp developer_mode 1
+2026-07-17 15:11:27,302 INFO /home/frappe/.local/bin/bench new-site --db-root-username root --db-root-password 123 --db-host mariadb --db-type mariadb --mariadb-user-host-login-scope=% --admin-password admin dev.localhost
+2026-07-17 15:19:03,509 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2026-07-17 15:19:05,831 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2026-07-17 15:19:07,923 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2026-07-17 15:19:10,292 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2026-07-17 15:19:12,522 INFO /home/frappe/.local/bin/bench set-config -gp developer_mode 1
+2026-07-17 15:19:14,806 INFO /home/frappe/.local/bin/bench new-site --db-root-username root --db-root-password 123 --db-host mariadb --db-type mariadb --mariadb-user-host-login-scope=% --admin-password admin dev.localhost
+2026-07-17 15:19:29,790 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2026-07-17 15:19:32,095 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2026-07-17 15:19:34,453 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2026-07-17 15:19:36,735 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2026-07-17 15:19:38,825 INFO /home/frappe/.local/bin/bench set-config -gp developer_mode 1
+2026-07-17 15:19:41,328 INFO /home/frappe/.local/bin/bench new-site --db-root-username root --db-root-password 123 --db-host mariadb --db-type mariadb --mariadb-user-host-login-scope=% --admin-password admin dev.localhost
+2026-07-17 15:19:57,710 INFO /home/frappe/.local/bin/bench new-site --db-root-username root --db-root-password 123 --db-host mariadb --db-type mariadb --mariadb-user-host-login-scope=% --admin-password admin dev.localhost
+2026-07-17 15:20:12,180 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 15:20:37,063 INFO /home/frappe/.local/bin/bench new-site --db-root-username root --db-root-password 123 --db-host mariadb --db-type mariadb --mariadb-user-host-login-scope=% --admin-password admin dev.localhost
+2026-07-17 15:24:32,102 INFO /home/frappe/.local/bin/bench new-site --db-root-username root --db-root-password 123 --db-host mariadb --db-type mariadb --mariadb-user-host-login-scope=% --admin-password admin dev.localhost
+2026-07-17 15:25:58,680 INFO /home/frappe/.local/bin/bench set-config -g db_host mariadb
+2026-07-17 15:26:01,069 INFO /home/frappe/.local/bin/bench set-config -g redis_cache redis://redis-cache:6379
+2026-07-17 15:26:03,504 INFO /home/frappe/.local/bin/bench set-config -g redis_queue redis://redis-queue:6379
+2026-07-17 15:26:06,645 INFO /home/frappe/.local/bin/bench set-config -g redis_socketio redis://redis-queue:6379
+2026-07-17 15:26:09,398 INFO /home/frappe/.local/bin/bench set-config -gp developer_mode 1
+2026-07-17 15:26:12,428 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 15:26:17,396 INFO /home/frappe/.local/bin/bench --site dev.localhost install-app erpnext
+2026-07-17 15:26:33,737 INFO /home/frappe/.local/bin/bench get-app --branch version-15 erpnext
+2026-07-17 15:26:34,458 LOG Getting erpnext
+2026-07-17 15:26:34,459 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2026-07-17 15:28:50,367 LOG Installing erpnext
+2026-07-17 15:28:50,379 DEBUG cd /workspace/development/frappe-bench && uv pip install --quiet -e /workspace/development/frappe-bench/apps/erpnext  --python /workspace/development/frappe-bench/env/bin/python
+2026-07-17 15:30:40,449 DEBUG cd /workspace/development/frappe-bench/apps/erpnext && yarn install --check-files
+2026-07-17 15:30:42,808 DEBUG bench build --app erpnext
+2026-07-17 15:30:43,258 INFO /home/frappe/.local/bin/bench build --app erpnext
+2026-07-17 15:30:49,008 WARNING bench build --app erpnext executed with exit code 1
+2026-07-17 15:30:49,009 WARNING /home/frappe/.local/bin/bench get-app --branch version-15 erpnext executed with exit code 1
+2026-07-17 15:33:02,018 INFO /home/frappe/.local/bin/bench --site dev.localhost install-app erpnext
+2026-07-17 19:11:56,852 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 19:12:10,396 INFO /home/frappe/.local/bin/bench new-app client_customizations --no-git
+2026-07-17 19:12:10,426 LOG creating new app client_customizations
+2026-07-17 19:12:17,005 WARNING /home/frappe/.local/bin/bench new-app client_customizations --no-git executed with exit code 1
+2026-07-17 19:12:25,686 INFO /home/frappe/.local/bin/bench new-app --help
+2026-07-17 19:12:37,701 INFO /home/frappe/.local/bin/bench new-app client_customizations --no-git
+2026-07-17 19:12:37,734 LOG creating new app client_customizations
+2026-07-17 19:12:52,244 INFO /home/frappe/.local/bin/bench new-app client_customizations --no-git
+2026-07-17 19:12:52,267 LOG creating new app client_customizations
+2026-07-17 19:12:59,224 LOG Installing client_customizations
+2026-07-17 19:12:59,389 DEBUG cd /workspace/development/frappe-bench && uv pip install --quiet -e /workspace/development/frappe-bench/apps/client_customizations  --python /workspace/development/frappe-bench/env/bin/python
+2026-07-17 19:13:04,188 DEBUG bench build --app client_customizations
+2026-07-17 19:13:04,731 INFO /home/frappe/.local/bin/bench build --app client_customizations
+2026-07-17 19:13:20,535 WARNING bench build --app client_customizations executed with exit code 1
+2026-07-17 19:13:20,537 WARNING /home/frappe/.local/bin/bench new-app client_customizations --no-git executed with exit code 1
+2026-07-17 19:17:36,237 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 19:21:41,120 INFO /home/frappe/.local/bin/bench get-app https://github.com/buildswithpaul/Frappe_Assistant_Core
+2026-07-17 19:21:41,836 LOG Getting Frappe_Assistant_Core
+2026-07-17 19:21:41,838 DEBUG cd ./apps && git clone https://github.com/buildswithpaul/Frappe_Assistant_Core  --depth 1 --origin upstream
+2026-07-17 19:23:03,973 INFO /home/frappe/.local/bin/bench --site dev.localhost list-apps
+2026-07-17 19:23:34,160 LOG Installing frappe_assistant_core
+2026-07-17 19:23:34,263 DEBUG cd /workspace/development/frappe-bench && uv pip install --quiet -e /workspace/development/frappe-bench/apps/frappe_assistant_core  --python /workspace/development/frappe-bench/env/bin/python
+2026-07-17 19:24:32,508 INFO /home/frappe/.local/bin/bench --site dev.localhost install-app client_customizations

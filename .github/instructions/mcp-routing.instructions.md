@@ -13,6 +13,12 @@ applyTo: ".github/agents/**/*.agent.md"
    - MCP_TOOL_UNAVAILABLE
    - MCP_RUNTIME_FAILURE
 
+## Discovery Before Mutation
+
+1. For mutating operations, first inspect existing document workflow states, linked documents, and module touchpoints.
+2. Prefer MCP read/list/get calls to establish current behavior before submit/cancel/update/delete actions.
+3. Do not introduce new command paths when an existing module workflow can be integrated.
+
 ## Fallback Contract
 
 1. Report the reason code.

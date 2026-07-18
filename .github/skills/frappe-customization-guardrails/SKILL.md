@@ -31,13 +31,15 @@ user-invocable: true
 
 ## Procedure
 
-1. Map requirement to the smallest hook surface.
-2. Implement with native API calls only.
-3. Explain why the selected hook is correct.
-4. Provide deterministic bench validation steps.
+1. Discover existing DocType hooks, services, and workflow touchpoints related to the requirement.
+2. Map requirement to the smallest hook surface using current module behavior.
+3. Implement with native API calls only.
+4. Explain why the selected hook is correct.
+5. Provide deterministic bench validation steps.
 
 ## Expected Output
 
 - Chosen hook with rationale
+- Existing touchpoints discovered and reuse decision
 - API usage rationale
 - Validation commands and pass criteria
