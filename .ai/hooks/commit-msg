@@ -1,0 +1,37 @@
+#!/bin/bash
+# AI-aware commit-msg hook
+# Enforces Conventional Commits per CONTRIBUTING.md
+
+COMMIT_MSG_FILE=$1
+COMMIT_MSG=$(cat "$COMMIT_MSG_FILE")
+
+# Pattern: type(scope): description
+# Types: feat, fix, docs, style, refactor, test, chore, ci
+PATTERN='^(feat|fix|docs|style|refactor|test|chore|ci)\([a-z0-9_-]+\):\s.+$'
+
+VALID_TYPES="feat|fix|docs|style|refactor|test|chore|ci"
+
+# Allow merge commits and reverts
+if echo "$COMMIT_MSG" | head -1 | grep -qP '^(Merge|Revert)'; then
+    exit 0
+fi
+
+if ! echo "$COMMIT_MSG" | head -1 | grep -qP "$PATTERN"; then
+    echo ""
+    echo "❌ Invalid commit message format."
+    echo ""
+    echo "Expected: <type>(<scope>): <description>"
+    echo ""
+    echo "Types: $VALID_TYPES"
+    echo ""
+    echo "Examples:"
+    echo "  feat(docker): add postgres compose override"
+    echo "  fix(build): resolve arm64 cache miss"
+    echo "  docs(setup): update env variable reference"
+    echo ""
+    echo "Your message:"
+    echo "  $(head -1 <<< "$COMMIT_MSG")"
+    exit 1
+fi
+
+exit 0

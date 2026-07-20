@@ -1,0 +1,26 @@
+{
+  "servers": [
+    {
+      "name": "filesystem",
+      "type": "builtin",
+      "description": "Project file system access — read/write within frappe_docker workspace"
+    },
+    {
+      "name": "docker",
+      "type": "command",
+      "command": "docker",
+      "args": ["compose"],
+      "description": "Docker Compose operations — up, down, exec, logs, ps"
+    },
+    {
+      "name": "github",
+      "type": "builtin",
+      "description": "GitHub API — issues, PRs, workflows, releases"
+    },
+    {
+      "name": "web-fetch",
+      "type": "builtin",
+      "description": "Fetch external documentation from docs.frappe.io/erpnext/ and other URLs"
+    }
+  ]
+}

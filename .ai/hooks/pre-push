@@ -1,0 +1,45 @@
+#!/bin/bash
+# AI-aware pre-push hook
+# Full validation before allowing push to remote
+
+echo "[AI Hook] Running pre-push checks..."
+
+# 1. Run pre-commit (catches what the user might have skipped)
+pre-commit run --all-files
+if [ $? -ne 0 ]; then
+    echo "❌ [AI Hook] pre-commit failed. Fix before pushing."
+    exit 1
+fi
+
+# 2. Validate Docker Compose files
+COMPOSE_FILES=$(git diff --cached --name-only -- '*.yaml' '*.yml')
+for FILE in $COMPOSE_FILES; do
+    if [ -f "$FILE" ]; then
+        echo "   Validating compose: $FILE"
+        docker compose -f "$FILE" config > /dev/null 2>&1
+        if [ $? -ne 0 ]; then
+            echo "❌ [AI Hook] Invalid compose file: $FILE"
+            exit 1
+        fi
+    fi
+done
+
+# 3. Check conventional commit message of HEAD
+HEAD_MSG=$(git log -1 --pretty=%B)
+if ! echo "$HEAD_MSG" | grep -qP '^(feat|fix|docs|style|refactor|test|chore|ci)\(.+\):\s.+'; then
+    echo "⚠️  [AI Hook] Last commit doesn't follow Conventional Commits:"
+    echo "   Format: <type>(<scope>): <description>"
+    echo "   Example: feat(docker): add postgres override"
+fi
+
+# 4. Verify branch name convention
+BRANCH=$(git rev-parse --abbrev-ref HEAD)
+if [[ "$BRANCH" != "main" && "$BRANCH" != "develop" ]]; then
+    if ! echo "$BRANCH" | grep -qP '^(feature|fix|docs|chore)/'; then
+        echo "⚠️  [AI Hook] Branch name doesn't follow convention:"
+        echo "   Use: feature/..., fix/..., docs/..., chore/..."
+    fi
+fi
+
+echo "✅ [AI Hook] pre-push checks passed."
+exit 0

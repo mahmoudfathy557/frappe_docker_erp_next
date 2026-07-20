@@ -1,0 +1,46 @@
+#!/bin/bash
+# AI-aware pre-commit hook
+# Extends .pre-commit-config.yaml with project-specific validation
+
+echo "[AI Hook] Running pre-commit checks..."
+
+# 1. Verify pre-commit is installed
+if ! command -v pre-commit &> /dev/null; then
+    echo "⚠️  pre-commit not found. Install: pip install pre-commit"
+    exit 1
+fi
+
+# 2. Run existing pre-commit hooks
+pre-commit run --all-files
+PRE_COMMIT_EXIT=$?
+
+# 3. Check for secrets in staged files (basic)
+STAGED=$(git diff --cached --name-only)
+SECRET_PATTERNS="(password|secret|api[_-]?key|token|credential|BEGIN (RSA|DSA|EC|OPENSSH) PRIVATE KEY)"
+
+for FILE in $STAGED; do
+    if [ -f "$FILE" ]; then
+        MATCHES=$(grep -inP "$SECRET_PATTERNS" "$FILE" 2>/dev/null | grep -vi "example\|sample\|_FILE\|PASSWORD_SECRETS_FILE\|DB_PASSWORD=" || true)
+        if [ -n "$MATCHES" ]; then
+            echo "⚠️  Possible secret in $FILE:"
+            echo "$MATCHES"
+            echo "Remove before committing or mark with #allow-secret"
+        fi
+    fi
+done
+
+# 4. Check for .env in staging
+for FILE in $STAGED; do
+    if [[ "$FILE" == ".env" ]]; then
+        echo "❌ .env is staged — never commit .env files!"
+        exit 1
+    fi
+done
+
+if [ $PRE_COMMIT_EXIT -ne 0 ]; then
+    echo "❌ [AI Hook] pre-commit failed."
+    exit $PRE_COMMIT_EXIT
+fi
+
+echo "✅ [AI Hook] pre-commit passed."
+exit 0

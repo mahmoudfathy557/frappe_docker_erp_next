@@ -1,0 +1,14 @@
+{
+  "agents": {
+    "directory": ".ai/agents"
+  },
+  "skills": {
+    "directory": ".ai/skills"
+  },
+  "mcps": {
+    "config": ".ai/mcps/mcp.json"
+  },
+  "hooks": {
+    "directory": ".ai/hooks"
+  }
+}
